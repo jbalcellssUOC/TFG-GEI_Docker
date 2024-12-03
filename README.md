@@ -61,9 +61,9 @@ La sortida al terminal o shell hauria de ser com es mostra a continuació:
 Utilitza les següents comandes per iniciar, aturar o llistar tots els contenidors desplegats disponibles:
 
 ```def
-        docker ps -a					           # Get a list of all available containers
-        docker start [container_namer_or_ID]	   # Start a container
-        docker stop [container_namer_or_ID]		   # Stops a container
+        docker ps -a                          # Get a list of all available containers
+        docker start [container_namer_or_ID]  # Start a container
+        docker stop [container_namer_or_ID]   # Stops a container
 ```
 
 A continuació es mostren algunes captures de pantalla de com hauria de quedar el contenidor iniciat i algunes proves de connexió a la nova base de dades:
