@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="images/logo.jpg" style="display: block;  margin-left: auto;  margin-right: auto;  width: 15%;">
+  <img src="images/logo.jpg" style="display: block;  margin-left: auto;  margin-right: auto;  width: 45%;">
   <h3 align="center">README.MD</h3>
 
   <p align="center">
@@ -45,6 +45,7 @@ Clona el repositori en una carpeta local i executa la següent comanda:
 ```def
         docker compose up -d
 ```
+La sortida al terminal o shell hauria de ser com es mostra a continuació:
 
 <div id="block" align="center">
     <div class="inline-block" style="display: inline-block; width: 30%">
@@ -64,6 +65,8 @@ Utilitza les següents comandes per iniciar, aturar o llistar tots els contenido
         docker start [container_namer_or_ID]	   # Start a container
         docker stop [container_namer_or_ID]		   # Stops a container
 ```
+
+A continuació es mostren algunes captures de pantalla de com hauria de quedar el contenidor iniciat i algunes proves de connexió a la nova base de dades:
 
 <div id="block" align="center">
     <div class="inline-block" style="display: inline-block; width: 30%">
@@ -87,7 +90,7 @@ Utilitza les següents comandes per iniciar, aturar o llistar tots els contenido
 ## Documentació
 <div id="documentation"></div>
 
-Informació addicional sobre la configuració de MS SQL Server es pot trobar al següent enllaç:
+Podeu consultar informació addicional sobre la configuració de Docker Desktop i MSSQL Server es pot trobar al següent enllaç:
 
 [Com instal·lar Docker Desktop en Windows](https://docs.docker.com/desktop/setup/install/windows-install/) 
 [Com instal·lar Docker Desktop en Linux](https://docs.docker.com/desktop/setup/install/linux/) 
