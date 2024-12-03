@@ -32,7 +32,7 @@ L'objectiu d'aquest projecte és proporcionar a l'equip de desenvolupament la in
 ## Requeriments
 <div id="requirements"></div>
 
-Es requereix una còpia local del producte Docker Desktop per a ordinadors amb Windows, que es pot descarregar des del següent enllaç: 
+Es requereix una còpia local del producte "Docker Desktop" per a ordinadors amb Windows, que es pot descarregar des del següent enllaç: 
 
 [Docker website](https://www.docker.com)
 
