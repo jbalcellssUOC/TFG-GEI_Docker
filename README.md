@@ -47,7 +47,7 @@ Clona el repositori en una carpeta local i executa la següent comanda:
 ```def
         docker compose up -d
 ```
-La sortida al terminal o shell hauria de ser com es mostra a continuació:
+La sortida al terminal o shell hauria de ser com es mostra a continuació: 
 
 <div id="block" align="center">
     <div class="inline-block" style="display: inline-block; width: 30%">
