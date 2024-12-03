@@ -92,6 +92,8 @@ A continuació es mostren algunes captures de pantalla de com hauria de quedar e
 
 Podeu consultar informació addicional sobre la configuració de Docker Desktop i MSSQL Server es pot trobar al següent enllaç:
 
-[Com instal·lar Docker Desktop en Windows](https://docs.docker.com/desktop/setup/install/windows-install/) 
-[Com instal·lar Docker Desktop en Linux](https://docs.docker.com/desktop/setup/install/linux/) 
-[Configurar SQL Server a Linux](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-configure-environment-variables)
+👉 [Com instal·lar Docker Desktop en Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
+
+👉 [Com instal·lar Docker Desktop en Linux](https://docs.docker.com/desktop/setup/install/linux/)
+
+👉 [Configurar SQL Server a Linux](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-configure-environment-variables)
