@@ -1,4 +1,4 @@
-<!-- PROJECT LOGO -->
+<!-- LOGO PROJECT-->
 <br />
 <div align="center">
   <img src="images/logo.jpg" style="display: block;  margin-left: auto;  margin-right: auto;  width: 45%;">
@@ -32,9 +32,11 @@ L'objectiu d'aquest projecte és proporcionar a l'equip de desenvolupament la in
 ## Requeriments
 <div id="requirements"></div>
 
-Es requereix una còpia local del producte "Docker Desktop" per a ordinadors amb Windows, que es pot descarregar des del següent enllaç: 
+Es requereix una còpia local del producte "Docker Desktop" per a ordinadors amb Windows o Linux, que es pot descarregar des del següent enllaç:
 
 [Docker website](https://www.docker.com)
+
+[Docker Desktop Website](https://docs.docker.com/desktop/setup/install/windows-install)
 
 <!-- INSTALLATION -->
 ## Instal·lació
@@ -45,7 +47,7 @@ Clona el repositori en una carpeta local i executa la següent comanda:
 ```def
         docker compose up -d
 ```
-La sortida al terminal o shell hauria de ser com es mostra a continuació:
+La sortida al terminal o shell hauria de ser com es mostra a continuació: 
 
 <div id="block" align="center">
     <div class="inline-block" style="display: inline-block; width: 30%">
