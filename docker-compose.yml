@@ -1,0 +1,27 @@
+services:
+  mssql:
+    build:
+      context: MSSQL_Server/
+      args:
+        MSSQL_VERSION: ${MSSQL_VERSION}
+    hostname: mssqlserver
+    container_name: mssqlserver
+    restart: always
+    ports:
+      - 1433:1433
+    environment:
+      - MSSQL_SA_PASSWORD=${MSSQL_SA_PASSWORD}
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+    volumes:
+      - type: volume
+        source: mssql
+        target: /var/opt/mssql
+    networks:
+      - mssql-network
+
+networks:
+ mssql-network:
+    driver: bridge
+volumes:
+  mssql:
